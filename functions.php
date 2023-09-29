@@ -23,6 +23,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles' );
 if (current_user_can('administrator')):
 	show_admin_bar(true);
   endif;
+  
 
 
 
